@@ -5,6 +5,7 @@ import { AppComponent } from './app.component';
 import { HomeComponent } from './home/home.component';
 import { PrelimComponent } from './prelim/prelim.component';
 import { ActFinalsComponent } from './act-finals/act-finals.component';
+import { ArtowrkComponent } from './artowrk/artowrk.component';
 
 
 const routes: Routes = [
@@ -20,6 +21,11 @@ const routes: Routes = [
 {
   path: 'prelim',
   component: PrelimComponent,
+},
+
+{
+  path: 'artwork',
+  component: ArtowrkComponent,
 },
 
 

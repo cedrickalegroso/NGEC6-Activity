@@ -7,6 +7,7 @@ import { AboutmeComponent } from './aboutme/aboutme.component';
 import { HomeComponent } from './home/home.component';
 import { PrelimComponent } from './prelim/prelim.component';
 import { ActFinalsComponent } from './act-finals/act-finals.component';
+import { ArtowrkComponent } from './artowrk/artowrk.component';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { ActFinalsComponent } from './act-finals/act-finals.component';
     AboutmeComponent,
     HomeComponent,
     PrelimComponent,
-    ActFinalsComponent
+    ActFinalsComponent,
+    ArtowrkComponent
   ],
   imports: [
     BrowserModule,
