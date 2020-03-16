@@ -120,6 +120,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "junv2"
+    }
+  },
+  "defaultProject": "junv2",
+  "cli": {
+    "analytics": false
+  }
 }
